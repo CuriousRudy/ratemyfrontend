@@ -4,7 +4,7 @@ import { Slider, Slide, Tabs, Tab, Card } from 'react-materialize';
 class Welcome extends React.Component {
   render() {
     return (
-      <div className="container" style={{ height: '100vh' }}>
+      <div className="container" style={{ height: '100%' }}>
         <br />
         <Slider indicators={false}>
           <Slide

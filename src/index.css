@@ -11,3 +11,7 @@ div.card-content span.card-title {
 li.tab a {
   color: white !important;
 }
+
+div.signup-info {
+  height: 100vh !important;
+}
