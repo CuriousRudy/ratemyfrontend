@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+div.card-content span.card-title {
+  color: white !important;
+}
+
+li.tab a {
+  color: white !important;
+}
