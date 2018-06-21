@@ -14,18 +14,21 @@ class App extends Component {
     return (
       <div className="App light-blue lighten-4">
         <nav className="light-blue darken-3">
-          <div class="nav-wrapper">
+          <div className="nav-wrapper">
             <a href="/" className="brand-logo right">
               HireFox
             </a>
-            <ul id="nav-mobile" className="left hide-on-med-and-down">
-              <li>
-                <a href="/brokers">Employee Profiles</a>
-              </li>
-              <li>
-                <a href="/reviews">Employee Reviews</a>
-              </li>
-            </ul>
+            {/* this will be authenticated with the user signing in, if the localstorage has the token, we can skip '/welcome' and go straight to ''/dashboard' */}
+            {window.location.pathname === '/' ? null : (
+              <ul id="nav-mobile" className="left hide-on-med-and-down">
+                <li>
+                  <a href="/brokers">Employee Profiles</a>
+                </li>
+                <li>
+                  <a href="/reviews">Employee Reviews</a>
+                </li>
+              </ul>
+            )}
           </div>
         </nav>
         <Switch>

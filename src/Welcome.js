@@ -45,7 +45,7 @@ class Welcome extends React.Component {
                   >
                     <form action="" className="white-text">
                       <input type="text" placeholder="Email Address" />
-                      <input type="text" placeholder="Password" />
+                      <input type="password" placeholder="Password" />
                     </form>
                   </Card>
                 </Tab>
@@ -61,7 +61,7 @@ class Welcome extends React.Component {
                   >
                     <form action="">
                       <input type="text" placeholder="Email Address" />
-                      <input type="text" placeholder="Password" />
+                      <input type="password" placeholder="Password" />
                       <input type="text" placeholder="Registration Code" />
                       <a href="#">don't have one?</a>
                     </form>
